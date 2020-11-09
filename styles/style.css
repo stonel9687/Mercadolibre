@@ -1,0 +1,399 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #363633;
+    text-decoration: none;
+}
+
+p {
+    display: flex;
+    text-align: center;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+nav {
+    height: 100px;
+    background-color: #FFE900;
+    padding: 0 100px;
+}
+
+
+/*........................*/
+
+.nav-div-top {
+    height: 60%;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+    margin-left: 15px;
+}
+
+.search-bar {
+    height: 100%;
+    width: 55%;
+}
+
+.icon-link {
+    height: 100%;
+    width: 30%;
+}
+
+input {
+    height: 39px;
+    width: 90%;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+}
+
+
+/*........................*/
+
+.nav-div-bottom {
+    height: 40%;
+    display: flex;
+}
+
+.categories {
+    height: 100%;
+    width: 15%;
+}
+
+.main-menu {
+    width: 100%;
+    height: 5%;
+}
+
+.ul {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    margin: auto;
+}
+
+a {
+    padding: 15px;
+    display: block;
+}
+
+a:hover {
+    color: #AC9144;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu p {
+    color: #857F4D;
+}
+
+.nav-profile {
+    height: 100%;
+    width: 30%;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*.........Carousel and banner............*/
+
+.section-1 {
+    height: 87vh;
+}
+
+.corousel-di {
+    height: 60%;
+    background-image: url(https://placeimg.com/640/480/arch);
+}
+
+.banner-di {
+    height: 40%;
+}
+
+.banner-in {
+    background-color: yellow;
+    height: 80%;
+    width: 90%;
+}
+
+.chevron-clik {
+    background-color: white;
+    height: 80px;
+    width: 40px;
+}
+
+
+/*............Section 2...........*/
+
+.section-2 {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.t-h-1 {
+    margin: 30px 0;
+}
+
+.div-left {
+    width: 49%;
+    height: 280px;
+}
+
+.div-right {
+    width: 49%;
+    height: 280px;
+}
+
+.div-in-left {
+    width: 55%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.div-in-right {
+    width: 45%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+
+/*.......section 3........*/
+
+.section-3 {
+    width: 90%;
+    margin: 25px auto
+}
+
+.div-box {
+    width: 284px;
+    height: 340px;
+    background-color: white;
+}
+
+.box-1 {
+    width: 300px;
+    height: 360px;
+    background-color: teal;
+}
+
+.box-2 {
+    margin: 0 20px;
+}
+
+
+/*...................Section 4-Categories...................*/
+
+.section-4 {
+    width: 90%;
+    margin: 25px auto;
+    background: #EBEBEB;
+}
+
+.wrapper {
+    border: 1px solid black;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    height: 150x;
+    margin: 150px auto;
+    background-color: #EBEBEB;
+}
+
+.box-s4 {
+    width: 167px;
+    height: 164px;
+    background-color: cyan;
+    margin: 0;
+}
+
+.box-s4-2 {
+    width: 167px;
+    height: 164px;
+    background-color: blue;
+    margin: 0;
+}
+
+.icon-2 {
+    font-size: 100%;
+}
+
+.fa {
+    font-size: 48px;
+}
+
+.icon-2:hover {
+    font-size: 150px 150px;
+}
+
+.ic {
+    position: absolute;
+    font-size: 100px;
+}
+
+
+/*Clases comunes*/
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.t .d-inline {
+    display: inline;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.t-aling-center {
+    text-align: center;
+}
+
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
+.j-content-center {
+    justify-content: center;
+}
+
+.chevron-icon {
+    font-size: 25px;
+}
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.img-sect-3 {
+    height: 30%;
+}
+
+.box-img {
+    height: 95px;
+    background-image: url(https://placeimg.com/640/480/arch);
+}
+
+.float-img {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    margin: auto;
+}
+
+.p-relative {
+    position: relative;
+    bottom: 40px;
+}
+
+.j-content-space {
+    justify-content: space-between;
+}
+
+.bg-color-green {
+    background-color: green;
+    width: 49%;
+    height: 200px;
+}
+
+.bg-color-purple-2 {
+    background-color: purple;
+    width: 55%;
+    height: 100px;
+}
+
+.gb-color-black {
+    background-color: black;
+}
+
+.bg-color-yellow {
+    background-image: url(https://placeimg.com/640/480/tech);
+    width: 70px;
+    height: 70px;
+}
+
+.bg-color-purple {
+    background-image: url(https://placeimg.com/640/480/animals);
+    width: 70px;
+    height: 70px;
+}
+
+.bg-color-green {
+    background-image: url(https://placeimg.com/640/480/people);
+    width: 70px;
+    height: 70px;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.botons:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.b-color {
+    border: solid 1px;
+}
+
+.f-size {
+    font-size: 15px;
+}
